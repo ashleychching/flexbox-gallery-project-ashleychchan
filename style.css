@@ -1,27 +1,31 @@
-html,
-body,* 
- {
+body {
+  background-color: grey;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  
+  font-family: 'Libre Baskerville', serif;
 }
-body{
+h1 {
+  font-size: xx-large;
+  padding: 30px;
+  text-align: center;
+  margin: auto
+}
 
-}
 .background {
-  padding: ;
-
+  padding: 20px ;
+  display: flex;
 }
 
-.background.title {
-  text-align: center;
-}
-.background.element {
-  text-align: center;
+.background-pics {
+width: 200px;
+height: 200px;
+object-fit: cover;
+overflow: hidden;
 
 }
-.background.pics{
-    width: 300px;
+.background-row{
+  display: flexbox;
+  justify-content: space-around;
 }
