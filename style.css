@@ -4,28 +4,27 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 h1 {
   font-size: xx-large;
   padding: 30px;
   text-align: center;
-  margin: auto
+  margin: 10px;
 }
 
 .background {
-  padding: 20px ;
+  padding: 20px;
   display: flex;
 }
 
 .background-pics {
-width: 200px;
-height: 200px;
-object-fit: cover;
-overflow: hidden;
-
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  overflow: hidden;
 }
-.background-row{
+.background-row {
   display: flexbox;
   justify-content: space-around;
 }
