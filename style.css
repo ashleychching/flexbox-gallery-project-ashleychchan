@@ -23,6 +23,12 @@ h1 {
   height: 200px;
   object-fit: cover;
   overflow: hidden;
+  
+}
+.background-element{
+  border: 3px solid indigo;
+
+  
 }
 .background-row {
   display: flexbox;
