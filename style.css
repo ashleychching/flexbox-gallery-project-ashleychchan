@@ -12,33 +12,27 @@ h1 {
   text-align: center;
   margin: 10px;
 }
-h2{
+h2 {
   font-size: 2em;
 }
-.background {
+.bigdog {
   display: flex;
   padding: 25px;
 }
 
-.background-pics {
+.bigdog-pics {
   width: 20rem;
   height: 20rem;
   object-fit: cover;
   overflow: hidden;
   box-shadow: 10px 10px 10px darkgreen;
-  
 }
-.background-element{
+.bigdog-element {
   border: 3px solid indigo;
-  
-
-  
 }
-.background-row {
+.bigdog-row {
   display: flexbox;
   justify-content: space-around;
-height: 100%;
-width: 80vw;
-
+  height: 100%;
+  width: 80vw;
 }
-.background
