@@ -8,29 +8,36 @@ body {
 }
 h1 {
   font-size: xx-large;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   margin: 10px;
 }
-
+h2{
+  font-size: 2em;
+}
 .background {
-  padding: 20px;
   display: flex;
+  padding: 25px;
 }
 
 .background-pics {
-  width: 200px;
-  height: 200px;
+  width: 20rem;
+  height: 20rem;
   object-fit: cover;
   overflow: hidden;
+  box-shadow: 10px 10px 10px darkgreen;
   
 }
 .background-element{
   border: 3px solid indigo;
+  text-align: center;
 
   
 }
 .background-row {
   display: flexbox;
   justify-content: space-around;
+height: 100%;
+width: 80vw;
+
 }
