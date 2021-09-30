@@ -1,37 +1,56 @@
 body {
-  background-color: grey;
+  background-color: #ca8a8b;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Quicksand", sans-serif;
 }
 h1 {
-  font-size: xx-large;
+  font-size: 45px;
   padding: 25px;
   text-align: center;
   margin: 10px;
+  text-shadow: 3px 5px 5px #7c5a50;
 }
 h2 {
   font-size: 2em;
 }
-
+.photo {
+  width: 14rem;
+  height: 8.5rem;
+}
+.smalldog {
+  display: flex;
+  padding: 25px;
+  margin: auto;
+  width: 85em;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #e2bcb7;
+  border-radius: 3em;
+}
 .bigdog {
   display: flex;
   padding: 25px;
   margin: auto;
-  width: 87em;
+  width: 85em;
   flex-direction: row;
   justify-content: space-around;
-  background-color: darkcyan;
+  background-color: #e2bcb7;
+  border-radius: 3em;
 }
 .card {
-  border: 3px solid chocolate;
+  border: 5px solid #b4846c;
   padding: 0.7rem;
-  box-shadow: 10px 10px 10px darkgreen;
-  border-radius: 5px 30px 5px 5px;
+  box-shadow: 10px 10px 10px #7c5a50;
+  border-radius: 5px 50px 5px 5px;
+  margin: 2em;
+  transition-duration: 0.4s;
 }
-
+.card:hover {
+  background-color: #5b6d5b;
+}
 .bigdog-pics {
   width: 13rem;
   height: 13rem;
@@ -39,10 +58,11 @@ h2 {
   overflow: hidden;
 }
 .bigdog-caption {
-  background: darkgreen;
+  background: #5b6d5b;
   padding: 10px;
   margin: 0;
-  border-radius: 5px 30px 5px 5px;
+  border-radius: 5px 40px 5px 5px;
+  color: beige;
 }
 .bigdog-row {
   display: flexbox;
