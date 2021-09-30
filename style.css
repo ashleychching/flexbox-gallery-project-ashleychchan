@@ -8,31 +8,43 @@ body {
 }
 h1 {
   font-size: xx-large;
-  padding: 20px;
+  padding: 25px;
   text-align: center;
   margin: 10px;
 }
 h2 {
   font-size: 2em;
 }
+
 .bigdog {
   display: flex;
   padding: 25px;
+  margin: auto;
+  width: 87em;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: darkcyan;
+}
+.card {
+  border: 3px solid chocolate;
+  padding: 0.7rem;
+  box-shadow: 10px 10px 10px darkgreen;
+  border-radius: 5px 30px 5px 5px;
 }
 
 .bigdog-pics {
-  width: 20rem;
-  height: 20rem;
+  width: 13rem;
+  height: 13rem;
   object-fit: cover;
   overflow: hidden;
-  box-shadow: 10px 10px 10px darkgreen;
 }
-.bigdog-element {
-  border: 3px solid indigo;
+.bigdog-caption {
+  background: darkgreen;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px 30px 5px 5px;
 }
 .bigdog-row {
   display: flexbox;
   justify-content: space-around;
-  height: 100%;
-  width: 80vw;
 }
