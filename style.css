@@ -53,6 +53,7 @@ h2 {
 
 .card:hover {
   background-color: #5b6d5b;
+  transform: scale(1.1);
 }
 .bigdog-pics {
   width: 13rem;
