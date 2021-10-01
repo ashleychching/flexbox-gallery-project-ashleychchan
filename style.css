@@ -5,6 +5,7 @@ body {
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Quicksand", sans-serif;
+  text-align: center;
 }
 h1 {
   font-size: 45px;
@@ -45,9 +46,11 @@ h2 {
   padding: 0.7rem;
   box-shadow: 10px 10px 10px #7c5a50;
   border-radius: 5px 50px 5px 5px;
-  margin: 2em;
+  margin: 30px;
   transition-duration: 0.4s;
+  margin-bottom: 60px;
 }
+
 .card:hover {
   background-color: #5b6d5b;
 }
