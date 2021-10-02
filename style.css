@@ -17,15 +17,15 @@ h1 {
 h2 {
   font-size: 2em;
 }
-.photo {
-  width: 15rem;
-  height: 9rem;
+.smalldog-pics {
+  height: 10rem;
+  width: 80%;
 }
 .smalldog {
   display: flex;
   padding: 25px;
   margin: auto;
-  width: 85em;
+  width: 65%;
   flex-direction: row;
   justify-content: space-around;
   background-color: #e2bcb7;
@@ -35,7 +35,7 @@ h2 {
   display: flex;
   padding: 25px;
   margin: auto;
-  width: 85em;
+  width: 65%;
   flex-direction: row;
   justify-content: space-around;
   background-color: #e2bcb7;
@@ -45,33 +45,35 @@ h2 {
   border: 5px solid #b4846c;
   padding: 0.7rem;
   box-shadow: 10px 10px 10px #7c5a50;
-  border-radius: .5rem 4rem .5rem .5rem;
+  border-radius: 0.5rem 4rem 0.5rem 0.5rem;
   margin: 1.5rem;
   transition-duration: 0.4s;
   margin-bottom: 5rem;
- 
 }
 
 .card:hover {
   background-color: #5b6d5b;
   transform: scale(1.1);
 }
+
 .bigdog-pics {
   width: 13rem;
   height: 13rem;
   object-fit: cover;
   overflow: hidden;
+  width: 100%;
 }
+
 .bigdog-caption {
   width: 85%;
   background: #5b6d5b;
   padding: 8%;
   margin: 0;
-  border-radius: .5rem 4rem .5rem .5rem;
+  border-radius: 0.5rem 4rem 0rem 0rem;
   color: beige;
 }
 .bigdog-row {
   display: flexbox;
   justify-content: space-around;
-  
+  width: 100%;
 }
