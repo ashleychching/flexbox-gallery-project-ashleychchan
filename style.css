@@ -8,8 +8,8 @@ body {
   text-align: center;
 }
 h1 {
-  font-size: 45px;
-  padding: 20px;
+  font-size: 3rem;
+  padding: 40px;
   text-align: center;
   margin: 10px;
   text-shadow: 3px 5px 5px #7c5a50;
@@ -26,8 +26,7 @@ h2 {
   padding: 25px;
   margin: auto;
   width: 65%;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #e2bcb7;
   border-radius: 3em;
 }
@@ -37,7 +36,7 @@ h2 {
   margin: auto;
   width: 65%;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #e2bcb7;
   border-radius: 3em;
 }
@@ -58,7 +57,7 @@ h2 {
 
 .bigdog-pics {
   width: 13rem;
-  height: 13rem;
+  height: 15rem;
   object-fit: cover;
   overflow: hidden;
   width: 100%;
@@ -74,6 +73,24 @@ h2 {
 }
 .bigdog-row {
   display: flexbox;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
+}
+@media only screen and (max-width: 1210px) {
+  body {
+    background-color: aquamarine;
+  }
+  .bigdog-caption {
+   font-size: 1rem;
+}
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: cadetblue;
+  }
+  .bigdog {
+    flex-direction: column;
+  }
+  .smalldog {
+    flex-direction: column;
+  }
 }
