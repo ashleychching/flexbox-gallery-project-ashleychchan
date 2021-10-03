@@ -20,6 +20,7 @@ h2 {
 .smalldog-pics {
   height: 10rem;
   width: 80%;
+  margin: auto;
 }
 .smalldog {
   display: flex;
