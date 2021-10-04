@@ -20,8 +20,8 @@ h2 {
   font-size: 2em;
 }
 .smalldog-pics {
-  height: 10rem;
-  width: 80%;
+  height: 13rem;
+  width: 50%;
   margin: auto;
 }
 .smalldog {
@@ -80,6 +80,47 @@ h2 {
   justify-content: center;
   width: 100%;
 }
+.animation{
+  height: 2rem;
+  width: 2rem;  
+  background-color: blue;
+  position: absolute;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  color: white;
+}
+
+@keyframes test {
+  0% {
+    left: 50%;
+    bottom: 10%;
+    background-color: red;
+  }
+  25% {
+    left: 50%;
+    bottom: 20%;
+    background-color: yellow;
+  }
+  50% {
+    left: 55%;
+    bottom: 20%;
+    background-color: blue;
+  }
+  75% {
+    left: 55%;
+    bottom: 10%;
+    background-color: purple;
+  }
+  100% {
+    left: 50%;
+    bottom: 10%;
+    background-color: red;
+  }
+}
+
+
 @media only screen and (max-width: 1210px) {
   body {
     background-color: aquamarine;
@@ -106,7 +147,8 @@ h2 {
     font-size: 1rem;
   }
   .smalldog-pics{
-    width: 19rem;
+    width: 80%;
+    height: 7rem;
   }
   .bigdog {
     flex-direction: column;
