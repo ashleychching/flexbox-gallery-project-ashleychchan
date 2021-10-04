@@ -6,6 +6,8 @@ body {
   font-size: 62.5%;
   font-family: "Quicksand", sans-serif;
   text-align: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 h1 {
   font-size: 3rem;
@@ -33,16 +35,17 @@ h2 {
 }
 .bigdog {
   display: flex;
-  padding: 25px;
+  padding: 2rem;
   margin: auto;
   width: 65%;
   flex-direction: row;
   justify-content: center;
   background-color: #e2bcb7;
   border-radius: 3em;
+
 }
 .card {
-  border: 5px solid #b4846c;
+  border: .4rem solid #b4846c;
   padding: 0.7rem;
   box-shadow: 10px 10px 10px #7c5a50;
   border-radius: 0.5rem 4rem 0.5rem 0.5rem;
@@ -80,6 +83,13 @@ h2 {
 @media only screen and (max-width: 1210px) {
   body {
     background-color: aquamarine;
+    
+  }
+  .smalldog{
+    flex-direction: column;
+  }
+  .smalldog-pics{
+   width: 19rem;
   }
   .bigdog-caption {
    font-size: 1rem;
@@ -96,7 +106,7 @@ h2 {
     font-size: 1rem;
   }
   .smalldog-pics{
-    height: 7rem;
+    width: 19rem;
   }
   .bigdog {
     flex-direction: column;
