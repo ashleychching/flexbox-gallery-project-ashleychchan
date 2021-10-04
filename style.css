@@ -6,8 +6,6 @@ body {
   font-size: 62.5%;
   font-family: "Quicksand", sans-serif;
   text-align: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
 }
 h1 {
   font-size: 3rem;
@@ -20,7 +18,7 @@ h2 {
   font-size: 2em;
 }
 .smalldog-pics {
-  height: 13rem;
+  height: 10rem;
   width: 50%;
   margin: auto;
 }
@@ -57,6 +55,40 @@ h2 {
 .card:hover {
   background-color: #5b6d5b;
   transform: scale(1.1);
+}
+.card1{
+  transition-duration: 1sec;
+}
+.card1:hover{
+  background-color: #c2e0e7;
+  transition-property: all ;
+  transform: rotate(360deg)
+  
+}
+.card2{
+  transition-duration: 1sec;
+}
+.card2:hover{
+  background-color: #f5cedb;
+  transition-property: all;
+  transform: skew(8deg);
+  
+}
+.card3{
+  transition-duration: 1sec;
+}
+.card3:hover{
+  background-color: #f7eae6;
+  box-shadow: 0 0 20px rgba(90, 0, 50, 1000);
+}
+.card4:hover{
+  background-color: #496a0f;
+   transform: scale(.9);
+    box-shadow: 0 0 30px rgba(100, 100, 30, 0);
+  
+}
+.card5:hover{
+  background-color: #b1b321;
 }
 
 .bigdog-pics {
