@@ -1,4 +1,4 @@
-body {
+body{
   background-color: #ca8a8b;
   padding: 0;
   margin: 0;
@@ -113,40 +113,28 @@ h2 {
   width: 100%;
 }
 .animation{
-  height: 2rem;
-  width: 3rem;  
+  height: 67rem;
+  width: 1rem;  
   background-color: transparent;
   position: absolute;
   animation-name: test;
   animation-duration: 4s;
   animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   color: white;
+  transform: scale(.5);
+  animation-fill-mode: forwards;
 }
 
 @keyframes test {
   0% {
-    left: 50%;
+    left: 100%;
     bottom: 10%;
     
   }
-  25% {
-    left: 50%;
-    bottom: 20%;
-   
-  }
-  50% {
-    left: 55%;
-    bottom: 20%;
-   
-  }
-  75% {
-    left: 55%;
-    bottom: 10%;
-    
-  }
+ 
   100% {
-    left: 50%;
+    left: 82%;
     bottom: 10%;
     
   }
