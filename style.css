@@ -78,7 +78,7 @@ h2 {
   transition-duration: 1sec;
 }
 .card3:hover{
-  background-color: #f7eae6;
+  background-color: #f7eae6; 
   box-shadow: 0 0 20px rgba(90, 0, 50, 1000);
 }
 .card4:hover{
@@ -115,7 +115,7 @@ h2 {
 .animation{
   height: 2rem;
   width: 2rem;  
-  background-color: blue;
+  background-color: transparent;
   position: absolute;
   animation-name: test;
   animation-duration: 4s;
