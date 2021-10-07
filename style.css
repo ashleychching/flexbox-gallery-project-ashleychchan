@@ -7,6 +7,7 @@ body{
   font-family: "Quicksand", sans-serif;
   text-align: center;
 }
+
 h1 {
   font-size: 3rem;
   padding: 40px;
@@ -96,7 +97,7 @@ h2 {
   height: 15rem;
   object-fit: cover;
   overflow: hidden;
-  width: 100%;
+  
 }
 
 .bigdog-caption {
@@ -107,11 +108,15 @@ h2 {
   border-radius: 0.5rem 4rem 0rem 0rem;
   color: beige;
 }
-.bigdog-row {
-  display: flexbox;
-  justify-content: center;
-  width: 100%;
+section{
+  display: flex;
+width: 25%;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: flex-start;
+margin: 50vw;
 }
+
 .animation{
   height: 115%;
   width: .5rem;  
@@ -170,12 +175,7 @@ h2 {
     width: 80%;
     height: 7rem;
   }
-  .bigdog {
-    flex-direction: column;
-  }
-  .smalldog {
-    flex-direction: column;
-  }
+ 
   .card{
     margin: 10px 10px 45px;
   }
