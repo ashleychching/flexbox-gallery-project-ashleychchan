@@ -17,6 +17,10 @@ h1 {
 }
 h2 {
   font-size: 2em;
+ 
+}
+a{
+  text-decoration: none;
 }
 .smalldog-pics {
   height: 10rem;
@@ -148,7 +152,7 @@ margin: 50vw;
 
 @media only screen and (max-width: 1210px) {
   body {
-    background-color: aquamarine;
+    background-color: burlywood;
     
   }
   .smalldog{
