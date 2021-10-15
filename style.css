@@ -10,9 +10,9 @@ body{
 
 h1 {
   font-size: 3rem;
-  padding: 40px;
+  padding: 3rem;
   text-align: center;
-  margin: 10px;
+  margin: 1rem;
   text-shadow: 3px 5px 5px #7c5a50;
 }
 h2 {
@@ -50,7 +50,7 @@ a{
 .card {
   border: .4rem solid #b4846c;
   padding: 0.7rem;
-  box-shadow: 10px 10px 10px #7c5a50;
+  box-shadow: 1rem 1rem 1rem #7c5a50;
   border-radius: 0.5rem 4rem 0.5rem 0.5rem;
   margin: 1.5rem;
   transition-duration: 0.4s;
@@ -84,12 +84,12 @@ a{
 }
 .card3:hover{
   background-color: #f7eae6; 
-  box-shadow: 0 0 20px rgba(90, 0, 50, 1000);
+  box-shadow: 0 0 2rem rgba(90, 0, 50, 1000);
 }
 .card4:hover{
   background-color: #496a0f;
    transform: scale(.9);
-    box-shadow: 0 0 30px rgba(100, 100, 30, 0);
+    box-shadow: 0 0 3rem rgba(100, 100, 30, 0);
   
 }
 .card5:hover{
@@ -179,8 +179,5 @@ margin: 50vw;
     width: 80%;
     height: 7rem;
   }
- 
-  .card{
-    margin: 10px 10px 45px;
-  }
+
 }
