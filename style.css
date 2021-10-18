@@ -29,8 +29,9 @@ a{
 }
 .smalldog {
   display: flex;
-  padding: 25px;
+  padding: 25px;  
   margin: auto;
+  margin-bottom: 4em;
   width: 65%;
   justify-content: space-evenly;
   background-color: #e2bcb7;
